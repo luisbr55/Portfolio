@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@theme {
+  --color-accent: #d9a441;
+  --color-bg: #0c0d0f;
+  --color-primary: #e8e6e1;
+  --color-secondary: #8a8c90;
+  --color-lines: #26282c;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-primary -font-sans antialiased;
+  }
+}
