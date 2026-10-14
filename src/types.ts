@@ -4,3 +4,8 @@ export type Project = {
     stack: string[],
     href?: string
 }
+
+export type StackGroup ={
+    name: string,
+    items: string[]
+}

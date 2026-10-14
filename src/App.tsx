@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Work from './components/Work'
 import Footer from './components/Footer'
 import About from './components/Abouts'
+import Stack from './components/Stack'
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Hero />
         <About/>
         <Work />
+        <Stack />
       </main>
       <Footer />
     </>
