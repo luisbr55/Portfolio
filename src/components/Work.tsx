@@ -1,4 +1,5 @@
 import ProjectRow from "./ProjectRow";
+import SectionHeader from "./SectionHeader";
 import type {Project} from "../types";
 
 
