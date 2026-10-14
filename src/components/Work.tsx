@@ -22,10 +22,7 @@ const projects: Project[] = [
 export default function Work() {
   return (
     <section id="work" className="px-7 pb-10">
-      <div className="flex justify-between border-b border-lines pb-3 font-mono text-xs text-secondary">
-        <span>selected work</span>
-        <span>{projects.length} projects</span>
-      </div>
+      <SectionHeader title="selected work" aside={`${projects.length} projects`} />
      {projects.map ((project, index)=> (
         <ProjectRow key = {project.name} project={project} index={index}/>
      ))}
